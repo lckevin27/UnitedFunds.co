@@ -23,14 +23,21 @@ header {
 
       li {
         display: inline-block;
-        margin: 0 35px;
+        margin: 0 30px;
       }
 
       a {
-        letter-spacing: 2px;
-        font-size: 120%;
+        letter-spacing: 3px;
+        font-size: 130%;
         color: #444;
         font-weight: 300;
+        padding: 10px 5px 10px 8px;
+        transition: 0.3s;
+      }
+
+      a:hover {
+        font-weight: 500;
+        border-bottom: 3px solid #444;
       }
     }
   }
