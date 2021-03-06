@@ -1,9 +1,10 @@
 import React from 'react'
+import SubBanner from '../components/SubBanner'
 
 const Cases = () => {
   return (
     <div className="cases">
-      This is Cases.
+      <SubBanner name="cases" />
     </div>
   )
 }

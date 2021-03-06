@@ -2,7 +2,6 @@ header {
   nav {
     width: 100%;
     height: 15vh;
-    overflow: hidden;
     padding: 2% 6%;
     position: absolute;
     top: 0;
@@ -24,20 +23,75 @@ header {
       li {
         display: inline-block;
         margin: 0 30px;
-      }
 
-      a {
-        letter-spacing: 3px;
-        font-size: 130%;
-        color: #444;
-        font-weight: 300;
-        padding: 10px 5px 10px 8px;
-        transition: 0.3s;
-      }
+        a {
+          font-size: 130%;
+          color: #444;
+          font-weight: 300;
+        }
 
-      a:hover {
-        font-weight: 500;
-        border-bottom: 3px solid #444;
+        &>a {
+          letter-spacing: 3px;
+          padding: 10px 5px 10px 8px;
+          transition: 0.3s;
+        }
+  
+        &>a:hover {
+          font-weight: 500;
+          border-bottom: 3px solid #444;
+        }
+  
+        &>a.is-active {
+          font-weight: 500;
+          border-bottom: 3px solid #444;
+        }
+
+        .dropdown-menu {
+          top: 15vh;
+          transform: translateY(-5px);
+          position: absolute;
+          background-color: #FFF;
+          border-radius: 5px;
+          border-top: 3px solid black;
+
+          a {
+            display: block;
+            padding: 15px 30px;
+            transition: 0.6s;
+          }
+
+          a:hover {
+            background-color: #DDD;
+          }
+        }
+
+        .hidden {
+          display: none;
+        }
+
+        .dropdown-menu::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          bottom: 100%;
+          left: 30px;
+          border: 20px solid transparent;
+          border-top: none;
+          border-bottom-color: black;
+        }
+
+        .dropdown-menu::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          bottom: 100%;
+          left: 34px;
+          border: 16px solid transparent;
+          border-top: none;
+          border-bottom-color: #FFF;
+        }
       }
     }
   }

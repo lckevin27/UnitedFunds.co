@@ -3,9 +3,9 @@
   margin-top: 15vh;
   background-image: url(../../img/banner.jpg);
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
-  background-attachment: fixed;
 
   .hero-text {
     position: absolute;
