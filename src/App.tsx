@@ -1,6 +1,8 @@
 import React from 'react';
-import Header from './components/Header'
 import { BrowserRouter as BRouter, Switch, Route } from 'react-router-dom'
+
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 import Home from './views/Home'
 import About from './views/About'
@@ -18,6 +20,7 @@ function App() {
           <Route path="/cases" exact component={ Cases } />
           <Route path="/contact" component={ Contact } />
         </Switch>
+        <Footer />
      </div>
     </BRouter>
   );
