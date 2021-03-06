@@ -1,0 +1,22 @@
+.banner {
+  height: 85vh;
+  margin-top: 15vh;
+  background-image: url(../../img/banner.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  .hero-text {
+    position: absolute;
+    left: 10%;
+    
+    p {
+      font-family: $banner-font, serif;
+      color: #FFF;
+      font-size: 450%;
+      font-weight: bold;
+      letter-spacing: 5px;
+      margin: 20px 0;
+    }
+  }
+}
