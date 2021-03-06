@@ -1,0 +1,19 @@
+// CN font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+// Banner text font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: $cn-font, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}

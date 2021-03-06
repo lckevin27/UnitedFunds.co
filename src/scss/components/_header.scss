@@ -1,0 +1,18 @@
+header {
+  nav {
+    width: 100%;
+    overflow: hidden;
+
+    .logo {
+      float: left;
+    }
+
+    ul {
+      float: right;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
