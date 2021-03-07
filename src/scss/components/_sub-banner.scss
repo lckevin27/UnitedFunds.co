@@ -1,23 +1,22 @@
-.banner-about {
+.banner-contact, .banner-about, .banner-cases, .banner-strategies {
   height: 50vh;
   margin-top: 15vh;
-  background-image: url(../../img/banner-about.jpg);
   background-size: cover;
   background-attachment: fixed;
+}
+
+.banner-about {
+  background-image: url(../../img/banner-about.jpg);
 }
 
 .banner-cases {
-  height: 50vh;
-  margin-top: 15vh;
   background-image: url(../../img/banner-cases.jpg);
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .banner-contact {
-  height: 50vh;
-  margin-top: 15vh;
   background-image: url(../../img/banner-contact.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+}
+
+.banner-strategies {
+  background-image: url(../../img/banner-strategies.jpg);
 }

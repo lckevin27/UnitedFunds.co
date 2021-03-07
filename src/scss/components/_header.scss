@@ -6,7 +6,7 @@ header {
     position: absolute;
     top: 0;
     z-index: 1;
-    background-color: #FFF;
+    background-color: $white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,9 +50,9 @@ header {
           top: 15vh;
           transform: translateY(-5px);
           position: absolute;
-          background-color: #FFF;
+          background-color: $white;
           border-radius: 5px;
-          border-top: 3px solid black;
+          border-top: 3px solid #333;
 
           a {
             display: block;
@@ -78,7 +78,7 @@ header {
           left: 30px;
           border: 20px solid transparent;
           border-top: none;
-          border-bottom-color: black;
+          border-bottom-color: #333;
         }
 
         .dropdown-menu::after {
@@ -90,7 +90,7 @@ header {
           left: 34px;
           border: 16px solid transparent;
           border-top: none;
-          border-bottom-color: #FFF;
+          border-bottom-color: $white;
         }
       }
     }

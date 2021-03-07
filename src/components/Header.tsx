@@ -38,6 +38,7 @@ const Header = () => {
               <HashLink className="dropdown-item" to="/about#team">核心团队</HashLink>
             </div>
           </li>
+          <li><NavLink activeClassName="is-active" to="/strategies" onMouseEnter={disableDropdowns}>投资策略</NavLink></li>
           <li className="dropdown">
             <li><Link to="/cases" onMouseEnter={enableCasesDropdown}>精选案例</Link></li>
             <div className={`dropdown-menu ${casesDropdown ? "" : 'hidden'}`} onMouseLeave={disableDropdowns}>
