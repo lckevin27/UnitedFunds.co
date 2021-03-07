@@ -1,0 +1,40 @@
+#team {
+  padding: 5% 12%;
+
+  .title-wrapper {
+    width: 100%;
+
+    .title {
+      text-align: center;
+      font-size: 250%;
+      letter-spacing: 0.1em;
+      margin-bottom: 7%;
+    }
+
+    .title:before,
+    .title:after {
+      background-color: #777;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 15%;
+    }
+    
+    .title:before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+    
+    .title:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+  }
+
+  .member-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
