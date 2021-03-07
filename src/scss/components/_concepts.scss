@@ -1,0 +1,23 @@
+#concepts {
+  padding: 5% 12%;
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    p {
+      flex-basis: 40%;
+      font-size: 110%;
+      line-height: 1.8em;
+    }
+  
+    .text-img {
+      flex-basis: 45%;
+  
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

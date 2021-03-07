@@ -6,9 +6,7 @@ interface sbProps {
 
 const SubBanner = ({ name }: sbProps) => {
   return (
-    <div className={`banner-${name}`}>
-      
-    </div>
+    <div className={`banner-${name}`}></div>
   )
 }
 

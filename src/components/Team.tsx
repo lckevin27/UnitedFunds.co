@@ -1,5 +1,6 @@
 import React from 'react'
 import Member from './Member'
+import Title from './Title'
 
 const Team = () => {
   const members = [{
@@ -35,14 +36,12 @@ const Team = () => {
     name: '薛云兴博士',
     position: '联合创始人兼技术顾问',
     role: '负责项目遴选和后期运营跟踪',
-    intro: '从事矿业工作10余年，现在澳大利亚上市公司 Anova Metals Ltd 运营经理。曾在 KPMG 融资并购部门担任高级经理，期间完成多个矿业项目的融资和交易。此前，在 Gold Fields Australia 和 Hanking(Australia) 工作从事不同的地质工作。作为主要负责人之一，全程参与了 Hanking(Australia) 公司收购、勘探、可研、选厂维修、生产以及 3.3 亿澳元（17 倍溢价）销售 SXO 金矿项目的全部过程，以及对澳大利亚上市公司 Primary Gold Ltd 的私有化退市过程。',
+    intro: '从事矿业工作10余年，现在澳大利亚上市公司 Anova Metals Ltd 运营经理。曾在 KPMG 融资并购部门担任高级经理，期间完成多个矿业项目的融资和交易。此前，在 Gold Fields Australia 和 Hanking (Australia) 工作从事不同的地质工作。作为主要负责人之一，全程参与了 Hanking (Australia) 公司收购、勘探、可研、选厂维修、生产以及 3.3 亿澳元（17 倍溢价）销售 SXO 金矿项目的全部过程，以及对澳大利亚上市公司 Primary Gold Ltd 的私有化退市过程。',
   }]
 
   return (
     <div id="team">
-      <div className="title-wrapper">
-        <p className="title">核心团队</p>
-      </div>
+      <Title title="核心团队" />
       <div className="member-container">
         {members.map(member => (<Member member={member} />))}
       </div>
