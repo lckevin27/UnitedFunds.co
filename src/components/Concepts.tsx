@@ -4,7 +4,7 @@ import picture from '../img/text/concepts.jpg'
 
 const Concepts = () => {
   return (
-    <div id="concepts">
+    <div id="concepts" className="art-section">
       <Title title="初心与理念" />
       <div className="content-wrapper">
         <p>

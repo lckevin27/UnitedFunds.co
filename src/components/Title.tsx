@@ -7,7 +7,7 @@ interface titleProps {
 const Title = ({ title }: titleProps) => {
   return (
     <div className="title-wrapper">
-      <p className="title">{ title }</p>
+      <p className="title"><span>{ title }</span></p>
     </div>
   )
 }

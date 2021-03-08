@@ -8,7 +8,7 @@ const Team = () => {
     name: '江帆',
     position: '联合创始人兼执行董事',
     role: '负责联合资本的日常运营和融资',
-    intro: '新西兰奥克兰大学土木工程荣誉学士，2010定居澳洲后，专注于金融领域工作，并在外汇，期货，股票累计了丰富的成功经验。近年来在澳洲多种领域都有投资，例如澳洲连锁健身品牌 Oslo Fitness, 墨尔本有机农场 Happy Hens, 墨尔本 Lyons College 大学， 澳洲亚富国际金融公司。',
+    intro: '新西兰奥克兰大学土木工程荣誉学士，2010 年定居澳洲后，专注于金融领域工作，并在外汇，期货，股票累计了丰富的成功经验。近年来在澳洲多种领域都有投资，例如澳洲连锁健身品牌 Oslo Fitness, 墨尔本有机农场 Happy Hens, 墨尔本 Lyons College 大学， 澳洲亚富国际金融公司。',
   },
   {
     code: 'YutingWang',
@@ -40,7 +40,7 @@ const Team = () => {
   }]
 
   return (
-    <div id="team">
+    <div id="team" className="art-section">
       <Title title="核心团队" />
       <div className="member-container">
         {members.map(member => (<Member member={member} />))}

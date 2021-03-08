@@ -13,18 +13,20 @@
 
       div p {
         margin-bottom: 10px;
+        font-weight: 400;
       }
 
       p.location {
         font-weight: 700;
         font-size: 150%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         border-left: 10px solid black;
         padding-left: 10px;
       }
 
       p.name {
         font-weight: 700;
+        font-size: 130%;
       }
     }
   }

@@ -1,11 +1,14 @@
 import React from 'react'
 import SubBanner from '../components/SubBanner'
+import Advantages from '../components/Advantages'
+import OurStrategies from '../components/OurStrategies'
 
 const Strategies = () => {
   return (
     <div className="strategies">
       <SubBanner name="strategies" />
-      我是策略
+      <Advantages />
+      <OurStrategies />
     </div>
   )
 }

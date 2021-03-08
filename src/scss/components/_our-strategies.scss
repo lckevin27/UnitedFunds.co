@@ -1,0 +1,76 @@
+#our-strategies {
+  background-color: $bg-gray;
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .content-left, .content-right {
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-basis: 25%;
+    }
+
+    ul {
+      list-style-type: square;
+      
+      li {
+        margin-bottom: 5px;
+      }
+    }
+
+    img {
+      max-width: 400px;
+      max-height: 400px;
+    }
+
+    p.title {
+      font-weight: 700;
+      font-size: 140%;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    p.title::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 0;
+      bottom: 100%;
+      border: 15px solid;
+      border-top: none;
+    }
+
+    .content-left {
+      .cooperation {
+        p.title::before {
+          border-color: #E76322;
+        }
+      }
+
+      .withdrawal {
+        p.title::before {
+          border-color: #2170AA;
+        }
+      }
+    }
+
+    .content-right {
+      .excavation {
+        p.title::before {
+          border-color: #B7B4B5;
+        }
+      }
+
+      .operation {
+        p.title::before {
+          border-color: #3D3033;
+        }
+      }
+    }
+  }
+}
