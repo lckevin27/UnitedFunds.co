@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as BRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter as HRouter, Switch, Route } from 'react-router-dom'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -12,7 +12,7 @@ import Contact from './views/Contact'
 
 function App() {
   return (
-    <BRouter>
+    <HRouter>
       <div className="App">
         <Header />
         <Switch>
@@ -24,7 +24,7 @@ function App() {
         </Switch>
         <Footer />
      </div>
-    </BRouter>
+    </HRouter>
   );
 }
 
