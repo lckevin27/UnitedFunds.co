@@ -14,13 +14,13 @@ const Contact = () => {
             <p className="location">墨尔本 Melbourne</p>
             <p className="name">王宇霆 Will Wang</p>
             <p className="phone">电话：0451 073 577</p>
-            <p className="email">邮箱：<a href="mailto:will.wang@unitedfunds.co">will.wang@unitedfunds.co</a></p>
+            <p className="email">邮箱：<a target="_blank" href="mailto:will.wang@unitedfunds.co">will.wang@unitedfunds.co</a></p>
           </div>
           <div>
             <p className="location">珀斯 Perth</p>
             <p className="name">薛云兴 Geoffrey Xue</p>
             <p className="phone">电话：0456 624 899</p>
-            <p className="email">邮箱：<a href="mailto:geoffrey.xue@unitedfunds.co">geoffrey.xue@unitedfunds.co</a></p>
+            <p className="email">邮箱：<a target="_blank" href="mailto:geoffrey.xue@unitedfunds.co">geoffrey.xue@unitedfunds.co</a></p>
           </div>
         </div>
       </div>

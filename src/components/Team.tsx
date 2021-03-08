@@ -43,7 +43,7 @@ const Team = () => {
     <div id="team" className="art-section">
       <Title title="核心团队" />
       <div className="member-container">
-        {members.map(member => (<Member member={member} />))}
+        {members.map(member => (<Member member={ member } />))}
       </div>
     </div>
   )
