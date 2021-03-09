@@ -20,4 +20,63 @@
       margin: 20px 0;
     }
   }
+
+  @media only screen and(max-width: 1420px) {
+    .hero-text {
+      left: 5%;
+
+      p {
+        font-size: 370%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 1200px) {
+    height: 90vh;
+    margin-top: 10vh;
+
+    .hero-text {
+      p {
+        font-size: 300%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 992px) {
+    .hero-text {
+      p {
+        font-size: 230%;
+        letter-spacing: 3px;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .hero-text {
+      p {
+        font-size: 175%;
+        letter-spacing: 2px;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .hero-text {
+      p {
+        font-size: 150%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 480px) {
+    margin-top: 7vh;
+    height: 75vh;
+
+    .hero-text {
+      p {
+        font-size: 120%;
+        letter-spacing: 1px;
+      }
+    }
+  }
 }
