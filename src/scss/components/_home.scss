@@ -24,10 +24,6 @@
   @media only screen and(max-width: 1420px) {
     .hero-text {
       left: 5%;
-
-      p {
-        font-size: 370%;
-      }
     }
   }
 
@@ -37,7 +33,7 @@
 
     .hero-text {
       p {
-        font-size: 300%;
+        font-size: 350%;
       }
     }
   }
@@ -45,37 +41,38 @@
   @media only screen and(max-width: 992px) {
     .hero-text {
       p {
-        font-size: 230%;
+        font-size: 270%;
         letter-spacing: 3px;
       }
     }
   }
 
   @media only screen and(max-width: 768px) {
+    height: 93vh;
+    margin-top: 7vh;
+
     .hero-text {
       p {
-        font-size: 175%;
+        font-size: 210%;
         letter-spacing: 2px;
       }
     }
   }
 
-  @media only screen and(max-width: 768px) {
+  @media only screen and(max-width: 600px) {
     .hero-text {
       p {
-        font-size: 150%;
+        font-size: 170%;
       }
     }
   }
 
   @media only screen and(max-width: 480px) {
-    margin-top: 7vh;
     height: 75vh;
 
     .hero-text {
       p {
-        font-size: 120%;
-        letter-spacing: 1px;
+        font-size: 130%;
       }
     }
   }

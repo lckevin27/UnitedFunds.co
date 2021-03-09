@@ -24,3 +24,13 @@ a {
 .art-section {
   padding: 5% 12%;
 }
+
+@media only screen and(max-width: 1420px) {
+  body {
+    font-size: 16px;
+  }
+
+  .art-section {
+    padding: 5% 6%;
+  }
+}

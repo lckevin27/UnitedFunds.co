@@ -18,4 +18,33 @@
       }
     }
   }
+
+  @media only screen and(max-width: 1420px) {
+    padding: 5% 12%;
+
+    .content-wrapper {
+      flex-direction: column;
+    }
+
+    .text-img {
+      margin-top: 60px;
+      width: 70%;
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .text-img {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+
+  @media only screen and(max-width: 480px) {
+    padding: 10% 7%;
+
+    .content-wrapper {
+      margin-top: 15px;
+      font-size: 90%;
+    }
+  }
 }
