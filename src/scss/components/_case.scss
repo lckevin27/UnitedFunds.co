@@ -107,6 +107,10 @@
     padding: 10% 7%;  
 
     .content-container {
+      .logo {
+        margin-bottom: 10px;
+      }
+
       .embedded {
         padding: 30px 0;
       }
@@ -115,6 +119,12 @@
   
   @media only screen and(max-width: 480px) {
     padding: 10% 5%;
+
+    .content-container {
+      ul {
+        margin-left: 1.5em;
+      }
+    }
   }
 }
 

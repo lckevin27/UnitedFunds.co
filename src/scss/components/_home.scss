@@ -30,6 +30,7 @@
   @media only screen and(max-width: 1200px) {
     height: 90vh;
     margin-top: 10vh;
+    background-attachment: scroll;
 
     .hero-text {
       p {
@@ -68,7 +69,7 @@
   }
 
   @media only screen and(max-width: 480px) {
-    height: 75vh;
+    height: 70vh;
 
     .hero-text {
       p {

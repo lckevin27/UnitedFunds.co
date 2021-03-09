@@ -41,7 +41,7 @@ const Header = () => {
         <div className="logo">
           <Link to="/"><img src={logo} alt="logo"/></Link>
         </div>
-        <div className="overlay" style={ showSideNav ? { width: '100%'} : { width: '0' }}></div>
+        <div className="overlay" style={ showSideNav ? { width: '100%'} : { width: '0' }} onClick={ closeNav }></div>
         <ul className="side-nav" style={ showSideNav ? { width: '350px', maxWidth: '75%' } : { width: '0' } }>
           <li><a href="javascript:void(0)" onClick={ closeNav }>&#10005;</a></li>
           <li><Link to="/" onClick={ closeNav }>首页</Link></li>
