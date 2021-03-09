@@ -4,4 +4,13 @@
   border-left: 15px solid red;
   padding-left: 20px;
   font-weight: bold;
+
+  @media only screen and(max-width: 1420px) {
+    margin-bottom: 50px;
+  }
+
+  @media only screen and(max-width: 600px) {
+    margin-bottom: 20px;
+    font-size: 160%;
+  }
 }

@@ -25,7 +25,7 @@ const OurStrategies = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="img-strategies">
           <img src={picture} alt="Our Strategies"/>
         </div>
         <div className="content-right">

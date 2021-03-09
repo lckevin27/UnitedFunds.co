@@ -24,11 +24,11 @@
 
     .content-wrapper {
       flex-direction: column;
-    }
 
-    .text-img {
-      margin-top: 60px;
-      width: 70%;
+      .text-img {
+        margin-top: 60px;
+        width: 70%;
+      }
     }
   }
 
@@ -39,12 +39,19 @@
     }
   }
 
+  @media only screen and(max-width: 600px) {
+    padding: 10% 12%;
+  }
+
   @media only screen and(max-width: 480px) {
     padding: 10% 7%;
 
     .content-wrapper {
-      margin-top: 15px;
       font-size: 90%;
+
+      .text-img {
+        margin-top: 15px;
+      }
     }
   }
 }

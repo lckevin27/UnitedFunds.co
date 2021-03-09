@@ -44,6 +44,18 @@
     .title {
       margin-bottom: 20px;
       font-size: 160%;
+      letter-spacing: 0.1em;
+
+      span {
+        padding-left: 0.1em;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 480px) {
+    .title:before,
+    .title:after {
+      width: 0;
     }
   }
 }

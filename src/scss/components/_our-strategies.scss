@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 
     .content-left, .content-right {
@@ -23,9 +24,11 @@
       }
     }
 
-    img {
-      max-width: 400px;
-      max-height: 400px;
+    .img-strategies {
+      img {
+        max-width: 400px;
+        max-height: 400px;
+      }
     }
 
     p.title {
@@ -47,6 +50,8 @@
 
     .content-left {
       .cooperation {
+        margin-bottom: 30px;
+
         p.title::before {
           border-color: #E76322;
         }
@@ -61,6 +66,8 @@
 
     .content-right {
       .excavation {
+        margin-bottom: 30px;
+
         p.title::before {
           border-color: #B7B4B5;
         }
@@ -72,5 +79,88 @@
         }
       }
     }
+  }
+
+  @media only screen and(max-width: 1680px) {
+    padding: 5% 8%;
+  }
+
+  @media only screen and(max-width: 1420px) {
+    padding: 5% 6%;
+  }
+
+  @media only screen and(max-width: 1200px) {
+    .content-container {
+      justify-content: center;
+
+      .img-strategies {
+        flex-basis: 100%;
+        order: 1;
+        text-align: center;
+
+        img {
+          max-width: 300px;
+          max-height: 300px;
+        }
+
+        margin-bottom: 40px;
+      }
+
+      .content-left, .content-right {
+        justify-content: flex-start;
+        
+        .cooperation {
+          margin-bottom: 100px;
+        }
+
+        .excavation {
+          margin-bottom: 50px;
+        }
+      }
+
+      .content-left {
+        flex-basis: 50%;
+        order: 2;
+      }
+
+      .content-right {
+        flex-basis: 50%;
+        order: 3;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 840px) {
+    .content-container {
+      .content-left, .content-right {
+        margin: 30px;
+        height: auto;
+
+        .cooperation {
+          margin-bottom: 50px;
+        }
+
+        .excavation {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .content-container {
+      .content-left, .content-right {
+        flex-basis: 100%;
+      
+        &>div {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+  @media only screen and(max-width: 480px) {
+    padding: 10% 2%;
   }
 }

@@ -1,4 +1,8 @@
 #advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
   .title-side {
     margin-left: 3.75%;
   }
@@ -23,7 +27,45 @@
     }
   }
 
-  @media only screen and(max-width: 1200px) {
+  @media only screen and(max-width: 1680px) {
+    padding: 5% 8%;
+  }
 
+  @media only screen and(max-width: 1420px) {
+    padding: 5% 6%;
+  }
+
+  @media only screen and(max-width: 1200px) {
+    .title-side {
+      margin-left: 0;
+    }
+
+    .content-wrapper {
+      flex-direction: column;
+      
+      .text-img {
+        margin-top: 60px;
+        width: 70%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .content-wrapper {
+      .text-img {
+        margin-top: 30px;
+        width: 100%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 600px) {
+    padding: 10% 12%;
+  }
+
+  @media only screen and(max-width: 480px) {
+    .text-img {
+      margin-top: 15px;
+    }
   }
 }
