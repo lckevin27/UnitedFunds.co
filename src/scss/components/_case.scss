@@ -1,5 +1,5 @@
 .case {
-  padding: 5% 20%;
+  padding: 8% 20%;
   
   .content-container {
     font-size: 110%;
@@ -97,6 +97,24 @@
         width: 80%;
       }
     }
+  }
+
+  @media only screen and(max-width: 1420px) {
+    padding: 5% 12%;
+  }
+  
+  @media only screen and(max-width: 600px) {
+    padding: 10% 7%;  
+
+    .content-container {
+      .embedded {
+        padding: 30px 0;
+      }
+    }
+  }
+  
+  @media only screen and(max-width: 480px) {
+    padding: 10% 5%;
   }
 }
 

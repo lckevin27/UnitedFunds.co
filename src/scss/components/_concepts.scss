@@ -20,8 +20,6 @@
   }
 
   @media only screen and(max-width: 1420px) {
-    padding: 5% 12%;
-
     .content-wrapper {
       flex-direction: column;
 
@@ -33,25 +31,17 @@
   }
 
   @media only screen and(max-width: 768px) {
-    .text-img {
-      margin-top: 30px;
-      width: 100%;
+    .content-wrapper {
+      .text-img {
+        margin-top: 30px;
+        width: 100%;
+      }
     }
   }
 
-  @media only screen and(max-width: 600px) {
-    padding: 10% 12%;
-  }
-
   @media only screen and(max-width: 480px) {
-    padding: 10% 7%;
-
     .content-wrapper {
       font-size: 90%;
-
-      .text-img {
-        margin-top: 15px;
-      }
     }
   }
 }
