@@ -1,15 +1,21 @@
 .contact {
   .contacts-section {
-    padding: 5% 22%;
 
     &>p {
+      text-align: center;
       font-size: 130%;
-      margin-bottom: 40px;
+      margin-bottom: 100px;
     }
 
     .contacts-container {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+
+      &>div {
+        margin: 20px 30px;
+        width: 255px;
+      }
 
       div p {
         margin-bottom: 10px;
@@ -20,13 +26,46 @@
         font-weight: 700;
         font-size: 150%;
         margin-bottom: 30px;
-        border-left: 10px solid black;
-        padding-left: 10px;
+        border-left: 15px solid black;
+        padding-left: 15px;
       }
 
       p.name {
         font-weight: 700;
         font-size: 130%;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 1420px) {
+    .contacts-section {
+      &>p {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  @media only screen and(max-width: 807px) {
+    .contacts-section {
+      &>p {
+        margin-bottom: 30px;
+      }
+
+      .contacts-container {
+        justify-content: center;
+  
+        &>div {
+          margin: 20px 30px;
+        }
+      }
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .contacts-section {
+      &>p {
+        text-align: left;
+        font-size: 110%;
       }
     }
   }

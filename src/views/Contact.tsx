@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <SubBanner name="contact" />
-      <div className="contacts-section">
+      <div className="contacts-section art-section">
         <Title title="联系方式" />
         <p>如果您想了解更多澳洲矿业投资机会及项目信息，请联系我们</p>
         <div className="contacts-container">
